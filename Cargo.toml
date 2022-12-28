@@ -1,0 +1,9 @@
+[workspace]
+members = [
+        'async',
+        'async_web_server',
+        'image_to_ascii',
+        'smart_pointer',
+        'channel',
+        'mutex',
+]
