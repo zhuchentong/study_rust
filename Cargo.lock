@@ -912,6 +912,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "trait-extends"
+version = "0.1.0"
+
+[[package]]
+name = "type-extends"
+version = "0.1.0"
+
+[[package]]
 name = "unicode-ident"
 version = "1.0.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"

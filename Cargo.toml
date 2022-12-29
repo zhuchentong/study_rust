@@ -8,4 +8,6 @@ members = [
         'mutex',
         'pattern',
         'unsafe-rust',
+        'trait-extends',
+        'type-extends',
 ]
