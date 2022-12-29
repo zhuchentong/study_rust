@@ -6,4 +6,5 @@ members = [
         'smart_pointer',
         'channel',
         'mutex',
+        'pattern',
 ]
