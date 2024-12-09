@@ -66,4 +66,26 @@ fn main() {
     // 复合类型: Tuple,Array
     //  Tuple 元组 固定长度 类型可不同
     //  Array 数组 固定长度 类型相同
+    println!("---复合类型---");
+    println!("---元组---");
+    let tuple_1 = (1, 2, String::from("test"));
+    let tuple_2: (i32, i8, i64) = (1, 2, 3);
+
+    // 使用模式匹配可以从 元组中 取值
+    let (x, y, z) = tuple_2;
+
+    println!("x = {}, y = {}, z = {}", x, y, z);
+    println!("tuple_1 is {},{},{}", tuple_1.0, tuple_1.1, tuple_1.2);
+
+    let array_1 = [1, 2, 3];
+    let array_2: [i32; 3] = [2, 3, 4];
+    let array_3 = [3; 6];
+
+    println!(
+        "array_1 is {:?}; array_2 is {:?}; array_3: {:?}",
+        array_1, array_2, array_3
+    );
+
+    const TTT: f32 = 3.4028236;
+    println!("ttt:{}", TTT);
 }

@@ -4,8 +4,10 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/concepts/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/concepts/variables_mutability/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/concepts/function_control_flow/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/concepts/target" />
       <excludeFolder url="file://$MODULE_DIR$/concepts/variables_mutability/target" />
+      <excludeFolder url="file://$MODULE_DIR$/concepts/function_control_flow/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
