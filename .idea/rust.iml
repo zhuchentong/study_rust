@@ -5,9 +5,11 @@
       <sourceFolder url="file://$MODULE_DIR$/concepts/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/concepts/variables_mutability/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/concepts/function_control_flow/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/module/csv_to_json/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/concepts/target" />
       <excludeFolder url="file://$MODULE_DIR$/concepts/variables_mutability/target" />
       <excludeFolder url="file://$MODULE_DIR$/concepts/function_control_flow/target" />
+      <excludeFolder url="file://$MODULE_DIR$/module/csv_to_json/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
