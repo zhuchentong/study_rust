@@ -4,7 +4,7 @@ fn main() {
     {
         // 数据的存活的时间应该可以覆盖引用存活的时间
         let x = 5;
-        r = &x;
+        r = x.clone();
     }
 
     println!("r: {}", r);
