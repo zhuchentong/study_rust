@@ -1,0 +1,12 @@
+[package]
+name = "profile"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[profile.dev]
+opt-level = 1    # 优化级别 0-3  0 不优化 3 最高优化 dev默认为0
+
+[profile.release]
+opt-level = 2    # 优化级别 0-3  0 不优化 3 最高优化 release默认为3
